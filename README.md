@@ -1,6 +1,6 @@
-#### 在composer 中添加依赖 
+#### 安装
 
-
+`composer require ezreal/admin-oss`
 
 #### 发布前端资源 `php artisan vendor:publish --tag=admin-oss`
 
