@@ -1,0 +1,32 @@
+{
+	"name": "ezreal/admin-oss",
+	"description": "laravel-admin扩展，web直传阿里oss（file，image，editor），基于airan/alioss-form开发",
+	"type": "library",
+	"keywords": ["laravel-admin", "extension", "alioss-web-direct"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "ezreal_rao",
+			"email": "ezreal_rao@163.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0.0",
+		"encore/laravel-admin": "~1.6"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Ezreal\\AdminOss\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Ezreal\\AdminOss\\AliOssFormServiceProvider"
+			]
+		}
+	}
+}
