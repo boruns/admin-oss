@@ -1,19 +1,6 @@
 #### 在composer 中添加依赖 
 
-```json
-{
-	"require": {
-		"ezreal/admin-oss": "~1.0"
-	},
-	"repositories": [
-		{
-			"type": "git",
-			"url": "git@gitlab.51idc.com:php/admin-oss.git"
-		}
-	]
-}
-```
-#### 删除 `composer.lock`后运行 `composer install -vvv` 
+
 
 #### 发布前端资源 `php artisan vendor:publish --tag=admin-oss`
 
